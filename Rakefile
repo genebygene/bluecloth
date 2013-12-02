@@ -93,7 +93,7 @@ Rake::ExtensionTask.new do |ext|
 	ext.ext_dir        = 'ext'
 	ext.source_pattern = "*.{c,h}"
 	ext.cross_compile  = true
-	ext.cross_platform = %w[i386-mswin32 i386-mingw32]
+	ext.cross_platform = %w[i386-mswin32 x86-mingw32]
 end
 
 # Generate a manpage for bin/bluecloth for packagers
